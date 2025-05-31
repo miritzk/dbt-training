@@ -6,10 +6,12 @@ select
     o.ordercostprice,
     o.ordersellingprice,
     o.ordersellingprice - o.ordercostprice as orderprofit,
+    c.customerid,
     c.customername,
     c.segment,
     c.country,
     c.state,
+    p.productid,
     p.productname,
     p.category,
     p.subcategory
